@@ -10,6 +10,6 @@
 ## 📌 Installation  
 Clone the repository and install dependencies:  
 ```bash
-git clone https://github.com/YourTeam/PaytoPark.git
+git clone https://github.com//PaytoPark.git
 cd PaytoPark
 pip install -r requirements.txt
