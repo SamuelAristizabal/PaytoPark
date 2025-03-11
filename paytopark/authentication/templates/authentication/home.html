@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio - PayToPark{% endblock %}
+
+{% block content %}
+<div class="container text-center mt-5">
+    <h1>Bienvenido a PayToPark</h1>
+    <p>El sistema de gestión de parqueaderos de la Universidad EAFIT</p>
+    
+    <!-- Botones con enlaces correctos -->
+    <a href="{% url 'login' %}" class="btn btn-primary">Iniciar Sesión</a>
+    <a href="{% url 'register' %}" class="btn btn-success">Registrarse</a>
+</div>
+{% endblock %}
